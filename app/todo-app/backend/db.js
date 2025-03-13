@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 
-// mongodb+srv://kirags123:8qPEa8KTKBEh2bss@cluster0.f3qlbuo.mongodb.net/todos
+
 // .env
-mongoose.connect("mongodb+srv://vats:010401@cluster0.4k2ay.mongodb.net/todoapp")
+mongoose.connect("") //put your own mongoDB cluster link here
 const todoSchema = mongoose.Schema({
     title: String,
     description: String,
